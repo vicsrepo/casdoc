@@ -17,7 +17,7 @@ package config
 import (
 	"fmt"
 
-	"github.com/spf13/viper"
+	"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"
 )
 
 var (
@@ -28,7 +28,7 @@ var (
 )
 
 func init() {
-	viper.SetDefault("AuthToken", "")
+	viper.SetDefault("AuthToken", "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")
 	viper.SetDefault("RPM", 3)
 	viper.SetDefault("TPM", 40000)
 	viper.SetDefault("RepoPath", "")
@@ -52,7 +52,7 @@ func init() {
 		var input string
 		_, _ = fmt.Scanln(&input)
 		AuthToken = input
-		if AuthToken == "" {
+		if AuthToken == "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" {
 			panic("AuthToken is empty")
 		}
 	}
